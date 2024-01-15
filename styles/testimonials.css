@@ -199,10 +199,9 @@ header .wrapper {
   width: 85%;
   height: 100%;
   margin: 0 auto;
-  background-color: rgba(184, 96, 23, 0.396);
+  /* background-color: rgba(184, 96, 23, 0.396); */
   position: relative;
-  /* z-index: 1; */
-}
+} 
 .testimonial-title {
   margin: 10px 0;
 }
@@ -217,32 +216,31 @@ header .wrapper {
 }
 .testimonial {
   width: 800px;
-  height: 380px;
+  height: 400px;
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
   background-color: var(--primaryColor);
   border-radius: 10px;
-  /* z-index: 2; */
 }
 .indicator {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 20px;
-  /* z-index: 2; */
+  bottom: -40px;
 }
 .btn {
   display: inline-block;
   height: 20px;
   width: 20px;
-  border-radius: 20px;
+  border-radius: 5px;
   margin: 5px;
   background-color: white;
   transition: 0.5s;
   box-shadow: 1px 0.5px 1px white;
+  
 }
 .active-btn {
   width: 35px;
@@ -255,14 +253,13 @@ header .wrapper {
 }
 .testimonial-col {
   width: 800px;
-  height: 380px;
+  height: 400px;
   position: relative;
-  /* z-index: 2; */
 }
 .user-text {
   background-color: #a6766542;
-  width: 500px;
-  height: 280px;
+  width: 400px;
+  height: 300px;
   position: absolute;
   left: 5%;
   top: 50%;
@@ -270,7 +267,7 @@ header .wrapper {
   border-radius: 10px;
   color: var(--buttonTextColor);
   padding: 50px;
-  z-index: 3;
+  z-index: 2;
 }
 .user-text p {
   font-size: 20px;
@@ -284,27 +281,24 @@ header .wrapper {
 }
 .user-img {
   position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  z-index: 2;
+  top: 55px;
+  right: 30px;
+  height: 70%;
 }
 .user-img img {
   height: 100%;
   border-radius: 10px;
 }
 
+/* ===Media Query for Testimonials====== */
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .testimonial-section {
     height: 70vh;
-    position: relative;
-    z-index: -1;
   }
   .testimonial-wrapper {
     width: 90%;
     height: 90%;
     position: relative;
-    z-index: 1;
   }
   .testimonial-title .heading {
     padding: 15px 20px 5px;
@@ -320,12 +314,10 @@ header .wrapper {
     height: 60%;
     overflow: hidden;
     top: 60%;
-    z-index: 2;
   }
   .indicator {
     position: absolute;
     bottom: 10px;
-    z-index: 2;
   }
   .btn {
     height: 15px;
@@ -341,21 +333,19 @@ header .wrapper {
     align-items: start;
     gap: 250px;
     transition: 1s;
-    z-index: 2;
   }
   .testimonial-col {
     width: 550px;
     height: 100%;
     border-radius: 15px;
     position: relative;
-    z-index: 2;
   }
   .user-text {
     width: 400px;
     height: 140px;
     position: absolute;
     padding: 30px 30px 20px 20px;
-    z-index: 3;
+    z-index: 2;
   }
   .user-text p {
     font-size: 12px;
@@ -369,7 +359,6 @@ header .wrapper {
     position: absolute;
     right: 0;
     height: 100%;
-    z-index: 2;
   }
   .user-img img {
     height: 100%;
@@ -380,14 +369,11 @@ header .wrapper {
 @media screen and (min-width: 577px) and (max-width: 767px) {
   .testimonial-section {
     height: 75vh;
-    position: relative;
-    z-index: -1;
   }
   .testimonial-wrapper {
     width: 90%;
     height: 90%;
     position: relative;
-    z-index: 1;
   }
   .testimonial-title .heading {
     padding: 25px 20px 8px;
@@ -468,15 +454,11 @@ header .wrapper {
 @media screen and (max-width: 576px) {
   .testimonial-section {
     height: 70vh;
-    position: relative;
-    z-index: -1;
-    /* background-color: blue; */
   }
   .testimonial-wrapper {
     width: 100%;
     height: 90%;
     position: relative;
-    z-index: -1;
   }
   .testimonial-title .heading {
     padding: 15px 20px 8px;
@@ -519,7 +501,6 @@ header .wrapper {
     height: 100%;
     border-radius: 15px;
     position: relative;
-    /* z-index: -1; */
   }
   .user-text {
     width: 280px;
@@ -556,12 +537,13 @@ header .wrapper {
     object-position: top center;
   }
 }
-
 /* ====footer====== */
 .footer {
   width: 100%;
-  height: 40vh;
-  background-color: var(--buttonBg);
+  height: 30vh;
+  background-color:   lightgoldenrodyellow;
+
+  margin-top: 100px;
 }
 .footer-wrapper {
   width: 80%;
@@ -574,21 +556,10 @@ header .wrapper {
 .footer-wrapper .logo {
   flex-grow: 1;
 }
-.footer-wrapper .logo h3 {
-  font-size: 40px;
-  font-weight: 700;
-  color: white;
-  line-height: 40px;
-  letter-spacing: 2px;
-  text-align: left;
-}
-.logo h3 span {
-  color: var(--secondaryColor);
-  text-shadow: 1px 1px 1px var(--secondaryColor);
-}
+
 .footer-info {
   text-align: left;
-  color: white;
+  color: black;
   height: 100%;
   display: flex;
   flex-direction: column;
