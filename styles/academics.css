@@ -68,7 +68,7 @@ header .wrapper {
   align-items: center;
 }
 .wrapper .logo a img {
-width: 120px;
+width: 150px;
 }
 .wrapper ul {
   list-style: none;
@@ -297,13 +297,8 @@ td {
 .footer-wrapper .logo {
   flex-grow: 1;
 }
-.footer-wrapper .logo h3 {
-  font-size: 40px;
-  font-weight: 700;
-  color: white;
-  line-height: 40px;
-  letter-spacing: 2px;
-  text-align: left;
+.footer-wrapper .logo a img {
+ width: 30%;
 }
 .logo h3 span {
   color: var(--secondaryColor);
@@ -352,11 +347,8 @@ td {
   .footer-wrapper .logo {
     flex-grow: 1;
   }
-  .footer-wrapper .logo h3 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 1px;
+  .footer-wrapper .logo a img {
+    width: 50px;
   }
   .footer-info h4 {
     font-size: 14px;
@@ -386,11 +378,8 @@ td {
   .footer-wrapper .logo {
     flex-grow: 1;
   }
-  .footer-wrapper .logo h3 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 1px;
+  .footer-wrapper .logo a img {
+   width: 50px
   }
   .footer-info h4 {
     font-size: 12px;

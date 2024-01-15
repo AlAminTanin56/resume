@@ -123,8 +123,8 @@ ul .active a::after {
   display: none;
 }
 
-.footer-wrapper .logo a img{
-  width: 120px;
+.footer-wrapper .logo img{
+  width: 150px;
 }
 
 @media screen and (max-width: 576px) {
@@ -818,6 +818,7 @@ td {
   padding: 30px 0;
   margin-top: 10px;
   margin-bottom: 60px;
+  background-color: azure;
 }
 .testimonial-wrapper {
   width: 85%;
@@ -846,7 +847,7 @@ td {
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-  background-color: var(--primaryColor);
+  background-color: cadetblue;
   border-radius: 10px;
 }
 .indicator {
@@ -896,6 +897,9 @@ td {
   font-size: 20px;
   line-height: 24px;
   color: white;
+  text-align: justify;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
 }
 .user-text h3 {
   margin: 35px 0 5px;
@@ -973,6 +977,10 @@ td {
   .user-text p {
     font-size: 12px;
     line-height: 14px;
+    color: white;
+    text-align: justify;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
   }
   .user-text h3 {
     margin: 10px 0 5px;
@@ -1053,6 +1061,10 @@ td {
   .user-text p {
     font-size: 12px;
     line-height: 12px;
+    color: white;
+    text-align: justify;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
   }
   .user-text h3 {
     margin: 10px 0 5px;
@@ -1142,6 +1154,10 @@ td {
   .user-text p {
     font-size: 10px;
     line-height: 12px;
+    color: white;
+    text-align: justify;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
   }
   .user-text h3 {
     margin: 6px 0 5px;
@@ -1183,7 +1199,7 @@ td {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #bfb3a8;
+  background-color: white;
 
 }
 .contact-title {
@@ -1703,18 +1719,10 @@ td {
 .footer-wrapper .logo {
   flex-grow: 1;
 }
-.footer-wrapper .logo h3 {
-  font-size: 40px;
-  font-weight: 700;
-  color: white;
-  line-height: 40px;
-  letter-spacing: 2px;
-  text-align: left;
+.footer-wrapper .logo a img {
+ width: 30%;
 }
-.logo h3 span {
-  color: var(--secondaryColor);
-  text-shadow: 1px 1px 1px var(--secondaryColor);
-}
+
 .footer-info {
   text-align: left;
   color: black;
@@ -1758,11 +1766,8 @@ td {
   .footer-wrapper .logo {
     flex-grow: 1;
   }
-  .footer-wrapper .logo h3 {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: 1px;
+  .footer-wrapper .logo a img {
+   width: 50px;
   }
   .footer-info h4 {
     font-size: 14px;
@@ -1792,11 +1797,8 @@ td {
   .footer-wrapper .logo {
     flex-grow: 1;
   }
-  .footer-wrapper .logo h3 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 1px;
+  .footer-wrapper .logo a img {
+    width: 50px;
   }
   .footer-info h4 {
     font-size: 12px;
