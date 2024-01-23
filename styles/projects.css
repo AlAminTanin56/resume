@@ -83,14 +83,14 @@ header .wrapper {
   padding: 5px 8px;
   font-size: 1.4vw;
   font-weight: 600;
-  color: var(--secondaryColor);
+  color: navy;
   transition: border-bottom 2s ease-in-out;
 }
 .wrapper ul li a::after {
   content: "";
   width: 0;
   height: 3px;
-  background-color: var(--primaryColor);
+  background-color: navy;
   position: absolute;
   left: 10%;
   bottom: -6px;
